@@ -1,0 +1,17 @@
+{
+  "mcp": {
+    "version": "1.0.0",
+    "security": {
+      "allowedFileTypes": ["sol", "js", "ts", "json", "md", "txt", "jsx", "tsx", "abi"],
+      "blockedPaths": [".env", ".git", "node_modules", ".ssh", "private", "secret"]
+    },
+    "features": {
+      "compilation": true,
+      "deployment": true,
+      "debugging": true,
+      "analysis": true,
+      "testing": true,
+      "git": true
+    }
+  }
+}
